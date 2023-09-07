@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JSON to CSV</title>
+    <!-- Enlace al archivo CSS externo "style.css" para estilos de página. -->
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>       
+     <!-- Contenedor principal de la aplicación. -->
+    <div id="app">
+        <div class="form">
+            <!-- Sección izquierda para ingresar datos JSON. -->
+            <div class="left">
+                <h3>JSON</h3>
+                <!-- Área de texto para ingresar datos JSON. -->
+                <textarea id="jsonform" id="" cols="30" rows="10"></textarea>
+                <!-- Botón para iniciar la conversión JSON a CSV. -->
+                <button id="bConvert">Convertir</button>
+            </div>
+            <!-- Sección derecha para mostrar datos CSV convertidos. -->
+            <div class="right">
+                <h3>CSV</h3>
+                <!-- Área de texto para mostrar datos CSV. -->
+                <textarea id="csvform" id="" cols="30" rows="10"></textarea>
+            </div>
+        </div>
+    </div>
+    <!-- Enlace al archivo JavaScript externo "main.js" para la funcionalidad de la aplicación. -->
+    <script src="js/app.js"></script>
+</body>
+</html>

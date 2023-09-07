@@ -1,0 +1,25 @@
+/* Establece el tipo de fuente predeterminado para el cuerpo del documento. */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+ /* Estilos para el contenedor principal del formulario. */
+ .form {
+  display: flex;
+  gap: 10px;
+}
+  
+ /* Estilos para las secciones izquierda y derecha del formulario. */
+ .left,
+ .right {
+   width: 50%;
+ }
+
+ /* Estilos para las áreas de texto (JSON y CSV). */
+ textarea {
+  width: 100%;
+  height: 500px;
+  padding: 20px;
+  box-sizing: border-box;
+  font-size: 20px;
+}
